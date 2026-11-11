@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Si usas este código o sus cifras, cítalo así."
+type: software
+title: "motor-fiscal: cálculo fiscal y laboral de España con tests contra el BOE"
+abstract: >-
+  Funciones puras en TypeScript para estimar el IRPF, la nómina, la prestación
+  por desempleo, la indemnización por despido, el finiquito, la cuota de
+  autónomos, la baja laboral, las vacaciones, las horas extra, la pensión de
+  jubilación, el coste de un trabajador para la empresa, la retención en
+  factura, la plusvalía municipal y el IVA de una reforma, con las cifras de
+  2026 y cada una contrastada en sus tests con la norma publicada en el BOE.
+authors:
+  - given-names: Javier
+    family-names: Miralles
+    email: contact@easybyte.es
+    website: "https://javiermiralles.tech"
+version: 0.1.0
+license: Apache-2.0
+repository-code: "https://github.com/easybytehub/motor-fiscal"
+url: "https://javiermiralles.tech/fiscal/"
+keywords:
+  - España
+  - IRPF
+  - nómina
+  - Seguridad Social
+  - prestación por desempleo
+  - autónomos
+  - indemnización por despido
+  - BOE

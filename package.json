@@ -1,0 +1,60 @@
+{
+  "name": "motor-fiscal",
+  "version": "0.1.0",
+  "description": "Cálculo fiscal y laboral de España en funciones puras: IRPF, nómina, paro, indemnización por despido, finiquito, cuota de autónomos, baja laboral, vacaciones, horas extra, pensión, coste de empresa, retención en factura, plusvalía municipal e IVA de reforma. Con tests contra el BOE.",
+  "keywords": [
+    "españa",
+    "spain",
+    "irpf",
+    "nomina",
+    "paro",
+    "sepe",
+    "seguridad-social",
+    "autonomos",
+    "reta",
+    "indemnizacion-despido",
+    "finiquito",
+    "baja-laboral",
+    "plusvalia-municipal",
+    "iva",
+    "aeat",
+    "boe",
+    "calculadora"
+  ],
+  "homepage": "https://javiermiralles.tech/fiscal/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easybytehub/motor-fiscal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/easybytehub/motor-fiscal/issues"
+  },
+  "author": "Javier Miralles <contact@easybyte.es> (https://javiermiralles.tech)",
+  "license": "Apache-2.0",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "test": "vitest run",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10"
+  }
+}
